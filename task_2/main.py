@@ -32,3 +32,10 @@ if __name__ == '__main__':
         if elem > 10:
             break
         print(elem, end=' ')
+
+    progression = GeometricProgression(1, 2)
+
+    for elem in progression:
+        if elem > 10:
+            break
+        print(elem, end=' ')
